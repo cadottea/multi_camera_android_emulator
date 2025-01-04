@@ -13,7 +13,7 @@ The Multi-Camera Android Emulator Automation Script is an AppleScript designed t
 
 ## Future Features
 
-In upcoming releases, we plan to enhance the **Multi-Camera Emulator Automation Script** with the following features:
+In upcoming releases, I plan to enhance the **Multi-Camera Emulator Automation Script** with the following features:
 
 - A way to set emulator positions within your screen - they currently default into the upper left and no amount of tweaking the Apple Script code or searching through emulator options was able to change this.
 - A way to pair the windows so that they can be moved together as a unit.
