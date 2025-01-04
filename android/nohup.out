@@ -1,0 +1,136 @@
+INFO    | Android emulator version 35.2.10.0 (build_id 12414864) (CL:N/A)
+INFO    | Graphics backend: gfxstream
+INFO    | Found systemPath /Users/thor/Library/Android/sdk/system-images/android-35/google_apis_playstore/arm64-v8a/
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+INFO    | Increasing RAM size to 2048MB
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_posture_requested(int) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_posture_selection_dialog() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_resizable_requested(PresetEmulatorSizeType) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_resizable_dialog() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_sleep_timer_done() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_unfold_timer_done() ((null):0, (null))
+
+INFO    | Storing crashdata in: /tmp/android-thor/emu-crash-35.2.10.db, detection is enabled for process: 60286
+library_mode host gpu mode host
+INFO    | Initializing hardware OpenGLES emulation support
+android_startOpenglesRenderer: gpu infoI1102 17:07:08.901217 bd83240 HealthMonitor.cpp:279] HealthMonitor disabled.
+I1102 17:07:08.901285 bd83240 VulkanDispatch.cpp:78] initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+I1102 17:07:08.901331 bd83240 VulkanDispatch.cpp:47] Setting ICD filenames for the loader = /Users/thor/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/vk_swiftshader_icd.json:/Users/thor/Library/Android/sdk/emulator/lib64/vulkan/vk_swiftshader_icd.json
+I1102 17:07:08.902299 bd83240 VulkanDispatch.cpp:137] Added library: /Users/thor/Library/Android/sdk/emulator/lib64/vulkan/libvulkan.dylib
+W1102 17:07:08.911561 bd83240 VkCommonOperations.cpp:1169] Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0), Version: 1.2.0
+initialize: Supports id properties, got a vulkan device UUID
+I1102 17:07:08.947366 bd83240 VkCommonOperations.cpp:1531] Initializing VkEmulation features:
+I1102 17:07:08.947402 bd83240 VkCommonOperations.cpp:1532]     glInteropSupported: false
+I1102 17:07:08.947407 bd83240 VkCommonOperations.cpp:1533]     useDeferredCommands: true
+I1102 17:07:08.947411 bd83240 VkCommonOperations.cpp:1535]     createResourceWithRequirements: true
+I1102 17:07:08.947415 bd83240 VkCommonOperations.cpp:1536]     useVulkanComposition: false
+I1102 17:07:08.947420 bd83240 VkCommonOperations.cpp:1537]     useVulkanNativeSwapchain: false
+I1102 17:07:08.947423 bd83240 VkCommonOperations.cpp:1538]     enable guestRenderDoc: false
+I1102 17:07:08.947426 bd83240 VkCommonOperations.cpp:1539]     ASTC LDR emulation mode: 2
+I1102 17:07:08.947430 bd83240 VkCommonOperations.cpp:1540]     enable ETC2 emulation: true
+I1102 17:07:08.947433 bd83240 VkCommonOperations.cpp:1541]     enable Ycbcr emulation: false
+I1102 17:07:08.947436 bd83240 VkCommonOperations.cpp:1542]     guestVulkanOnly: false
+I1102 17:07:08.947440 bd83240 VkCommonOperations.cpp:1543]     useDedicatedAllocations: false
+I1102 17:07:08.947700 bd83240 FrameBuffer.cpp:522] Graphics Adapter Vendor Google (Apple)
+I1102 17:07:08.947709 bd83240 FrameBuffer.cpp:523] Graphics Adapter Android Emulator OpenGL ES Translator (Apple M1)
+I1102 17:07:08.947712 bd83240 FrameBuffer.cpp:524] Graphics API Version OpenGL ES 3.0 (4.1 Metal - 89.3)
+I1102 17:07:08.947716 bd83240 FrameBuffer.cpp:525] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+I1102 17:07:08.947738 bd83240 FrameBuffer.cpp:526] Graphics Device Extensions N/A
+INFO    | Sending adb public key [QAAAAMcf1EEJDsL3brJjw6j5QhYJp+Rn1N1NtLRHglXrfUP3/ilHaS5SrJILTDiu+bMQ4VCopOF7pGLwplkQgkSfuGpbqKIduZq/zEed3BTCZQ8mlwRTBryacrXSvrh4YiFrCdQrPRm557ISU/IYTmh/8HrZWwBEZd5oKDgFfc0QUtSrk99UrpFXv3z7cQbaElrH3Yr8nE1RmdDzlBBaQrDBC23S/0/+bdiu7v7MyvdEo+H0Oe9Fyl/TdpaWjlffO+atBQibP7PBwDUm81wsjtpLiiqf7Uk9n9u88IqMuepKzY3bPLf6ZhWaLvczl/C2uQUYwd8fvKvVDPaJpw/lHRh8J6UvpMK2gZUSPlT+1XRRp3HQhyFxmxydfBEiN0uTCOXq5mxNsY3fRtBzDQikZipjMCH35xSmuTA00ZEYUEBFFKfyb2vcRMiB/w8SRa3IicGDo9HYs9jTw5NThTwyM9TO1Wfjp9i4BXLeZ4qMBQX9Kmx2Ni8ZjsreFHsnvLN/PlB2V9KNcmYhRMqtDLQ04vNSgLKwOOfsCT6NS0ve59dGjVfZVLQfYfIyETZlbTG+OBsW5xNkrvjyTych7lTS/LxtzkSwIE5QVp6t70dmuaAKRIxa3owuKqOmK/pMeZWE85+6GRob0Y1gEZlZPI7N8kkmrAufHo+z8jQShtepDWmvVvxxxL9cJwEAAQA= thor@unknown]
+INFO    | Monitoring duration of emulator setup.
+WARNING | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO    | Using security allow list from: /Users/thor/Library/Android/sdk/emulator/lib/emulator_access.json
+WARNING | *** Basic token auth should only be used by android-studio ***
+INFO    | The active JSON Web Key Sets can be found here: /Users/thor/Library/Caches/TemporaryItems/avd/running/60286/jwks/24c9f3e6-7fa6-4f25-ba6d-e8e9a909397f/active.jwk
+INFO    | Scanning /Users/thor/Library/Caches/TemporaryItems/avd/running/60286/jwks/24c9f3e6-7fa6-4f25-ba6d-e8e9a909397f for jwk keys.
+INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO    | Advertising in: /Users/thor/Library/Caches/TemporaryItems/avd/running/pid_60286.ini
+INFO    | Qemu slirp is disabled.
+I1102 17:07:09.229484 c84b000 FrameBuffer.cpp:2894] Setting display: 0 configuration to: 1080x2400, dpi: 420x420 
+I1102 17:07:09.229506 c84b000 FrameBuffer.cpp:2907] setDisplayActiveConfig 0
+2024-11-02 17:07:09.413 qemu-system-aarch64[60286:3921597] +[IMKClient subclass]: chose IMKClient_Legacy
+2024-11-02 17:07:09.414 qemu-system-aarch64[60286:3921597] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
+INFO    | Loading snapshot 'default_boot'...
+INFO    | Activated packet streamer for bluetooth emulation
+INFO    | Successfully loaded snapshot 'default_boot'
+E1102 17:07:12.187918 906f000 FrameBuffer.cpp:3619] Failed to find ColorBuffer:0
+E1102 17:07:12.207741 8633000 FrameBuffer.cpp:3619] Failed to find ColorBuffer:0
+INFO    | Wait for emulator (pid 60286) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO    | Wait for emulator (pid 60286) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO    | Saving with gfxstream=1
+E1102 17:10:53.277247 bd83240 DisplaySurfaceGl.cpp:125] Failed to restore previous context: 12297
+INFO    | Android emulator version 35.2.10.0 (build_id 12414864) (CL:N/A)
+INFO    | Graphics backend: gfxstream
+INFO    | Found systemPath /Users/thor/Library/Android/sdk/system-images/android-35/google_apis_playstore/arm64-v8a/
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+INFO    | Increasing RAM size to 2048MB
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_posture_requested(int) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_posture_selection_dialog() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_resizable_requested(PresetEmulatorSizeType) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_resizable_dialog() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_sleep_timer_done() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_unfold_timer_done() ((null):0, (null))
+
+INFO    | Storing crashdata in: /tmp/android-thor/emu-crash-35.2.10.db, detection is enabled for process: 60400
+library_mode host gpu mode host
+INFO    | Initializing hardware OpenGLES emulation support
+android_startOpenglesRenderer: gpu infoI1102 17:19:47.326568 bd83240 HealthMonitor.cpp:279] HealthMonitor disabled.
+I1102 17:19:47.326613 bd83240 VulkanDispatch.cpp:78] initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+I1102 17:19:47.326651 bd83240 VulkanDispatch.cpp:47] Setting ICD filenames for the loader = /Users/thor/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/vk_swiftshader_icd.json:/Users/thor/Library/Android/sdk/emulator/lib64/vulkan/vk_swiftshader_icd.json
+I1102 17:19:47.327441 bd83240 VulkanDispatch.cpp:137] Added library: /Users/thor/Library/Android/sdk/emulator/lib64/vulkan/libvulkan.dylib
+W1102 17:19:47.335219 bd83240 VkCommonOperations.cpp:1169] Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0), Version: 1.2.0
+initialize: Supports id properties, got a vulkan device UUID
+I1102 17:19:47.368186 bd83240 VkCommonOperations.cpp:1531] Initializing VkEmulation features:
+I1102 17:19:47.368214 bd83240 VkCommonOperations.cpp:1532]     glInteropSupported: false
+I1102 17:19:47.368219 bd83240 VkCommonOperations.cpp:1533]     useDeferredCommands: true
+I1102 17:19:47.368222 bd83240 VkCommonOperations.cpp:1535]     createResourceWithRequirements: true
+I1102 17:19:47.368225 bd83240 VkCommonOperations.cpp:1536]     useVulkanComposition: false
+I1102 17:19:47.368227 bd83240 VkCommonOperations.cpp:1537]     useVulkanNativeSwapchain: false
+I1102 17:19:47.368230 bd83240 VkCommonOperations.cpp:1538]     enable guestRenderDoc: false
+I1102 17:19:47.368233 bd83240 VkCommonOperations.cpp:1539]     ASTC LDR emulation mode: 2
+I1102 17:19:47.368235 bd83240 VkCommonOperations.cpp:1540]     enable ETC2 emulation: true
+I1102 17:19:47.368238 bd83240 VkCommonOperations.cpp:1541]     enable Ycbcr emulation: false
+I1102 17:19:47.368240 bd83240 VkCommonOperations.cpp:1542]     guestVulkanOnly: false
+I1102 17:19:47.368242 bd83240 VkCommonOperations.cpp:1543]     useDedicatedAllocations: false
+I1102 17:19:47.368511 bd83240 FrameBuffer.cpp:522] Graphics Adapter Vendor Google (Apple)
+I1102 17:19:47.368517 bd83240 FrameBuffer.cpp:523] Graphics Adapter Android Emulator OpenGL ES Translator (Apple M1)
+I1102 17:19:47.368519 bd83240 FrameBuffer.cpp:524] Graphics API Version OpenGL ES 3.0 (4.1 Metal - 89.3)
+I1102 17:19:47.368522 bd83240 FrameBuffer.cpp:525] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+I1102 17:19:47.368525 bd83240 FrameBuffer.cpp:526] Graphics Device Extensions N/A
+INFO    | Sending adb public key [QAAAAMcf1EEJDsL3brJjw6j5QhYJp+Rn1N1NtLRHglXrfUP3/ilHaS5SrJILTDiu+bMQ4VCopOF7pGLwplkQgkSfuGpbqKIduZq/zEed3BTCZQ8mlwRTBryacrXSvrh4YiFrCdQrPRm557ISU/IYTmh/8HrZWwBEZd5oKDgFfc0QUtSrk99UrpFXv3z7cQbaElrH3Yr8nE1RmdDzlBBaQrDBC23S/0/+bdiu7v7MyvdEo+H0Oe9Fyl/TdpaWjlffO+atBQibP7PBwDUm81wsjtpLiiqf7Uk9n9u88IqMuepKzY3bPLf6ZhWaLvczl/C2uQUYwd8fvKvVDPaJpw/lHRh8J6UvpMK2gZUSPlT+1XRRp3HQhyFxmxydfBEiN0uTCOXq5mxNsY3fRtBzDQikZipjMCH35xSmuTA00ZEYUEBFFKfyb2vcRMiB/w8SRa3IicGDo9HYs9jTw5NThTwyM9TO1Wfjp9i4BXLeZ4qMBQX9Kmx2Ni8ZjsreFHsnvLN/PlB2V9KNcmYhRMqtDLQ04vNSgLKwOOfsCT6NS0ve59dGjVfZVLQfYfIyETZlbTG+OBsW5xNkrvjyTych7lTS/LxtzkSwIE5QVp6t70dmuaAKRIxa3owuKqOmK/pMeZWE85+6GRob0Y1gEZlZPI7N8kkmrAufHo+z8jQShtepDWmvVvxxxL9cJwEAAQA= thor@unknown]
+INFO    | Monitoring duration of emulator setup.
+WARNING | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO    | Using security allow list from: /Users/thor/Library/Android/sdk/emulator/lib/emulator_access.json
+WARNING | *** Basic token auth should only be used by android-studio ***
+INFO    | The active JSON Web Key Sets can be found here: /Users/thor/Library/Caches/TemporaryItems/avd/running/60400/jwks/6c38acee-6119-48f4-a377-1128e378a997/active.jwk
+INFO    | Scanning /Users/thor/Library/Caches/TemporaryItems/avd/running/60400/jwks/6c38acee-6119-48f4-a377-1128e378a997 for jwk keys.
+INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO    | Advertising in: /Users/thor/Library/Caches/TemporaryItems/avd/running/pid_60400.ini
+INFO    | Qemu slirp is disabled.
+I1102 17:19:47.615628 e787000 FrameBuffer.cpp:2894] Setting display: 0 configuration to: 1080x2400, dpi: 420x420 
+I1102 17:19:47.615650 e787000 FrameBuffer.cpp:2907] setDisplayActiveConfig 0
+2024-11-02 17:19:47.792 qemu-system-aarch64[60400:3929977] +[IMKClient subclass]: chose IMKClient_Legacy
+2024-11-02 17:19:47.792 qemu-system-aarch64[60400:3929977] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
+INFO    | Loading snapshot 'default_boot'...
+INFO    | Activated packet streamer for bluetooth emulation
+INFO    | Successfully loaded snapshot 'default_boot'
+E1102 17:19:49.756804 ff5f000 FrameBuffer.cpp:3619] Failed to find ColorBuffer:0
+E1102 17:19:49.879462 f523000 FrameBuffer.cpp:3619] Failed to find ColorBuffer:0
+INFO    | Android emulator version 35.2.10.0 (build_id 12414864) (CL:N/A)
+INFO    | Graphics backend: gfxstream
+INFO    | Found systemPath /Users/thor/Library/Android/sdk/system-images/android-35/google_apis_playstore/arm64-v8a/
+unknown option: -orientation
+please use -help for a list of valid options
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.

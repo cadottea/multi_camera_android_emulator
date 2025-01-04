@@ -1,0 +1,37 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+wyze_yolo_env/
+
+# Ignore backup files and temporary files
+*.bak
+*.swp
+*.log
+
+# Ignore image files (if you don't want to track them in the repository)
+*.jpg
+*.jpeg
+*.png
+
+# Ignore custom machine learning models, logs, and other large files
+*.pt
+*.h5
+*.log
+*.pkl
+
+# Ignore any temporary files
+*.swp
+*.swo
+
+# Ignore other unnecessary files
+*.tmp
+
+# Ignore the yolov5 directory if it gets created
+yolov5/
